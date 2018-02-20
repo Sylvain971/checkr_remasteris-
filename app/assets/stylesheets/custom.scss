@@ -1,24 +1,25 @@
+body {
+	margin: 0;
+}
+
 .container {
 	margin : auto;
 	width: 90%;
 }
 
 header {
-	width: 100%;
-	height: 10%;
-	background-color: yellow;
+	height: 130px;
 }
 
 .first_part {
-	background-image: asset-data-url("fond_premiere_partie.jpeg");
+	background-image: asset-data-url("blue.jpeg");
 	background-size: cover;
 	position: relative;
 	width: 100vw;
-	height: 90vh;
+	height: 96vh;
 }
 
 .menu1 {
-	background-color: blue;
 	padding : 5px;
 }
 
@@ -27,6 +28,11 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+}
+
+.menu1 a {
+	text-decoration: none;
+	color : #fff;
 }
 
 .menu1 ul li {
@@ -41,7 +47,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: red;
+	font-size : 14px;
+	color: #fff;
 }
 
 .menu2 img {
@@ -66,7 +73,7 @@ header {
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #4caf5000;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -107,20 +114,37 @@ header {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #4caf5000;
 }
+
 .menu_gauche {
-	background-color: green;
+	background-color: none;
 }
 
 .menu_droite {
-	background-color: pink;
+	background-color: none;
 }
 
 .first_corpus{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 }
 
+.pitch {
+	padding-top: 5%;
+	width :38%;
+}
+
+.pitch h1 {
+	font-size : 2.5rem;
+	color: #fff;
+}
+
+.pitch p {
+	font-size : 1rem;
+	color: #fff;
+}
+
+.demo p {
+}
